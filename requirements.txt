@@ -1,0 +1,6 @@
+# The dashboard generator (generator/generate_dashboard.py) and the
+# validation library (lib/grafana_validate.py) use only the Python
+# standard library (json, re, pathlib) -- no runtime dependencies.
+#
+# pytest is only needed to run the test suite in tests/.
+pytest>=7.4
